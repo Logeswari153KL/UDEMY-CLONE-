@@ -1,0 +1,225 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Gabarito", sans-serif;
+}
+
+body {
+    background: #f9f9f9;
+}
+
+/* NAVBAR */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    border-bottom: 1px solid #ddd;
+    background: white;
+    position: sticky;
+    top: 0;
+    
+}
+
+.navbar div,
+.navbar ul {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    font-weight: 700;
+    font-size: 24px;
+    color: #A435F0;
+}
+
+.search-box {
+    position: relative;
+}
+
+.search-box input {
+    width: 350px;
+    padding: 10px 40px 10px 15px;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+}
+
+.search-box i {
+    position: absolute;
+    right: 15px;
+    top: 11px;
+}
+
+.nav-links {
+    list-style: none;
+    gap: 20px;
+}
+
+.nav-links li {
+    cursor: pointer;
+    padding: 5px 12px;
+    border-radius: 5px;
+}
+
+.nav-links li:hover {
+    background: #eee;
+    transition: 0.2s;
+}
+
+.nav-links li:active {
+    box-shadow: 0 0 10px #A435F0;
+}
+
+.login {
+    background: #fff;
+    color: #A435F0;
+    border: 1px solid #A435F0 !important;
+}
+
+.signup {
+    background: #A435F0;
+    color: #fff !important;
+}
+
+/* MENU BAR */
+.menu-bar {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 12px;
+    background: #fff;
+    border-bottom: 2px solid #A435F0;
+}
+
+.menu-bar p {
+    cursor: pointer;
+    padding: 5px 12px;
+}
+
+.menu-bar p:hover {
+    background: #eee;
+    border-radius: 5px;
+}
+
+/* HERO */
+.hero {
+    padding: 50px;
+    text-align: center;
+    background: #efe3ff;
+}
+
+.section {
+    padding: 40px 30px;
+}
+
+.section h2 {
+    margin-bottom: 20px;
+}
+
+/* CARDS */
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    justify-content: space-evenly;
+}
+
+.card,
+.small-card,
+.skill-card {
+    width: 220px;
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.card img,
+.small-card img,
+.skill-card img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.card:hover,
+.small-card:hover,
+.skill-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 4px 15px rgba(0,0,0,0.2);
+}
+
+.card:active,
+.small-card:active,
+.skill-card:active {
+    box-shadow: 0px 0px 15px #A435F0;
+}
+
+/* PLANS */
+.plans {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 30px;
+}
+
+.plan {
+    width: 250px;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid #A435F0;
+}
+
+.plan ul {
+    margin-top: 15px;
+}
+
+.plan li {
+    margin-bottom: 8px;
+}
+
+/* FEEDBACK */
+.feedback {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.feedback-box {
+    width: 220px;
+    background: white;
+    padding: 15px;
+    border-left: 5px solid #A435F0;
+    border-radius: 10px;
+}
+
+/* ABOUT */
+.about {
+    background: #fff;
+    border-left: 5px solid #A435F0;
+}
+
+/* FOOTER */
+footer {
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-bottom: 10px;
+}
+
+.footer-links p {
+    cursor: pointer;
+}
+
+.copy {
+    font-size: 14px;
+}
